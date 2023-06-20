@@ -93,7 +93,7 @@ ol {
   color: var(--white);
 }
 .hero-bt {
-  line-height: 1,5;
+  line-height: 1, 5;
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--iris);
@@ -102,7 +102,7 @@ ol {
   background-color: var(--ocean);
 }
 .advantages {
-    background-color: var(--white);
+  background-color: var(--white);
 }
 .advantages-list {
 }
@@ -154,7 +154,7 @@ ol {
   color: var(--dark-ck);
 }
 .team-text {
-  line-height: 1,5;
+  line-height: 1, 5;
   letter-spacing: 0.02em;
   color: var(--text-slate);
 }
@@ -167,7 +167,42 @@ ol {
   letter-spacing: 0.02em;
   color: var(--cloud);
 }
-
-.portfolio{
+.portfolio {
+  background-color: var(--white);
 }
-
+.portfolio-nav-bt {
+}
+.portfolio-bt {
+  font-weight: 500;
+  line-height: 1, 5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
+  border: 1px solid var(--cornflower);
+}
+.portfolio-bt:hover,
+.portfolio-bt:focus,
+.portfolio-bt:active {
+  color: var(--white);
+  background-color: var(--ocean);
+  border: 1px solid var(--ocean);
+}
+.portfolio-catalog {
+}
+.catalog-item {
+  border: 1px solid var(--cornflower);
+}
+.catalog-img {
+}
+.catalog-titel {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  letter-spacing: 0.02em;
+  color: var(--dark-ck);
+}
+.catalog-text {
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+  color: var(--text-slate);
+}
