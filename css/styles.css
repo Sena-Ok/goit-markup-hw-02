@@ -99,10 +99,10 @@ ol {
 }
 
 .address:hover{
-    color: var(--ocean);
+    color: #404bbf;
 }
 .address:focus{
-  color: var(--ocean);
+  color: #404bbf;
 }
 .main {
 }
