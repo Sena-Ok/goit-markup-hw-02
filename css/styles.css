@@ -98,9 +98,10 @@ ol {
   color: var(--text-slate);
 }
 
-.address:hover,
-.address:focus,
-.address:active {
+.address:hover{
+    color: var(--ocean);
+}
+.address:focus{
   color: var(--ocean);
 }
 .main {
