@@ -15,7 +15,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--dark-ck);
+  color: var(--text-slate);
+  background-color: var(--white);
 }
 
 .link,
@@ -24,6 +25,7 @@ a {
   font-style: normal;
   color: currentColor;
 }
+
 .bt,
 button {
   font-family: inherit;
@@ -39,41 +41,52 @@ ol {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 16;
+  line-height: 1.17;
   text-transform: uppercase;
   color: var(--iris);
+  letter-spacing: 0.03em;
 }
 
 .logo-dark {
   color: var(--dark-ck);
 }
+
 .logo-light {
   color: var(--cloud);
 }
 
-<!--header-- > .page {
+<!--header-- > 
+.page {
 }
 .header-nav {
 }
 .header-list {
 }
+
 .header-link {
   font-weight: 500;
-  line-height: 1, 5;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--dark-ck);
 }
+
 .header-link:hover,
-.header-link:focus,
-.header-link:active {
+.header-link:focus {
   color: var(--ocean);
   text-decoration: underline;
 }
+
 .address {
-  line-height: 1, 5;
+  font-style: normal;
+}
+
+.address-link {
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-slate);
 }
+
 .address:hover,
 .address:focus,
 .address:active {
@@ -88,17 +101,23 @@ ol {
 }
 .hero-titel {
   font-size: 56px;
-  line-height: 1, 07;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white);
+  text-align: center;
 }
 .hero-bt {
-  line-height: 1, 5;
+  font-weight: 500;
+  line-height: 1.5;
+  font-size: 16px;
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--iris);
+  cursor: pointer;
 }
-.hero-bt:active {
+
+.hero-bt:hover,
+.hero-bt:focus {
   background-color: var(--ocean);
 }
 .advantages {
@@ -109,12 +128,12 @@ ol {
 .advantages-titel-item {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-ck);
 }
 .advantages-item {
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-slate);
 }
@@ -122,10 +141,11 @@ ol {
 }
 .doing-titel {
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-ck);
+  text-align: center;
 }
 .doing-list {
 }
@@ -134,10 +154,11 @@ ol {
 }
 .team-titel {
   font-size: 36px;
-  line-height: 1, 11;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--dark-ck);
+  text-align: center;
 }
 .team-list {
 }
@@ -149,12 +170,12 @@ ol {
 .team-link-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-ck);
 }
 .team-text {
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-slate);
 }
@@ -163,7 +184,7 @@ ol {
 }
 
 .footer-text {
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
 }
@@ -174,11 +195,13 @@ ol {
 }
 .portfolio-bt {
   font-weight: 500;
-  line-height: 1, 5;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--iris);
   background-color: var(--cloud);
   border: 1px solid var(--cornflower);
+  cursor: pointer;
 }
 .portfolio-bt:hover,
 .portfolio-bt:focus,
@@ -197,12 +220,12 @@ ol {
 .catalog-titel {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1, 2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-ck);
 }
 .catalog-text {
-  line-height: 1, 5;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-slate);
 }
