@@ -46,7 +46,15 @@ ol {
   color: var(--iris);
   letter-spacing: 0.03em;
 }
-
+.logo-doun {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: var(--iris);
+  letter-spacing: 0.03em;
+}
 .logo-dark {
   color: var(--dark-ck);
 }
@@ -71,9 +79,12 @@ ol {
   color: var(--dark-ck);
 }
 
-.header-link:hover,
+.header-link:hover{
+  color: #404bbf;
+  text-decoration: underline;
+}
 .header-link:focus {
-  color: var(--ocean);
+  color: #404bbf;
   text-decoration: underline;
 }
 
@@ -225,6 +236,7 @@ ol {
   color: var(--dark-ck);
 }
 .catalog-text {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-slate);
